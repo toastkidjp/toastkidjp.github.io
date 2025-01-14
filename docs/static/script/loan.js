@@ -1,3 +1,14 @@
+/*
+ * Copyright (c) 2025 toastkidjp.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompany this distribution.
+ * The Eclipse Public License is available at http://www.eclipse.org/legal/epl-v10.html.
+ */
+
+/**
+ * @author toastkidjp
+ */
 function calculate() {
     const paymentCount = (document.getElementById("term").value * 12);
     const convertedRate = document.getElementById("interestRate").value / 100.0;
