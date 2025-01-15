@@ -6,6 +6,7 @@
 <link rel="icon" href="static/image/toast_icon.jpg" />
     <link href="static/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
     <script src="static/mui-0.10.3/js/mui.min.js"></script>
+    <script src="static/script/converter.js"></script>
 </head>
 <body>
 <div class="mui-container">
@@ -45,46 +46,7 @@
 </body>
 
 <script>
-function encode() {
-    const input = document.getElementById('input');
-    const encodedTextValue = encodeURIComponent(input.value);
-    document.getElementById('encoded').value = encodedTextValue;
-}
-
-function decode() {
-    const encoded = document.getElementById('encoded');
-    try {
-        const decodedTextValue = decodeURIComponent(encoded.value);
-        document.getElementById('input').value = decodedTextValue;
-    } catch (e) {
-        // > /dev/null
-    }
-}
-
 window.onload = setInitialTime();
-
-function setInitialTime() {
-    const now = Date.now();
-    document.getElementById('unixtime').value = now;
-    toDateTime();
-}
-
-function toDateTime() {
-    const input = document.getElementById('unixtime');
-    const encodedTextValue = new Date(Number(input.value));
-    document.getElementById('datetime').value = encodedTextValue.toLocaleString();
-}
-
-function toUnixTime() {
-    const encoded = document.getElementById('datetime');
-    try {
-        const decodedTextValue = Date.parse(encoded.value);
-        document.getElementById('unixtime').value = decodedTextValue;
-    } catch (e) {
-        // > /dev/null
-    }
-}
-
 </script>
 
 </html>
