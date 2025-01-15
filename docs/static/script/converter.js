@@ -24,6 +24,7 @@ function decode() {
         // > /dev/null
     }
 }
+
 function setInitialTime() {
     const now = Date.now();
     document.getElementById('unixtime').value = now;
