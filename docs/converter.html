@@ -24,6 +24,17 @@
 <textarea id="encoded" placeholder="Encoded text" onchange="decode()">%E8%8C%A8%E5%9F%8E%E7%89%B9%E8%A8%B1%E8%A8%B1%E5%8F%AF%E5%B1%80</textarea>
 </div>
 
+<h2>UNIX time</h2>
+
+<div class="mui-textfield mui-textfield--float-label">
+<textarea id="unixtime" placeholder="UNIX time" type="number" onchange="toDateTime()"></textarea>
+</div>
+
+<div class="mui-textfield mui-textfield--float-label">
+<textarea id="datetime" placeholder="DateTime" onchange="toUnixTime()"></textarea>
+</div>
+
+
 <div id="footer">
 <p>This site is powered by GitHub Pages, and styled with <a href="https://www.muicss.com/">MUI</a>.</p>
 (c) toastkidjp
@@ -49,6 +60,31 @@ function decode() {
         // > /dev/null
     }
 }
+
+window.onload = setInitialTime();
+
+function setInitialTime() {
+    const now = Date.now();
+    document.getElementById('unixtime').value = now;
+    toDateTime();
+}
+
+function toDateTime() {
+    const input = document.getElementById('unixtime');
+    const encodedTextValue = new Date(Number(input.value));
+    document.getElementById('datetime').value = encodedTextValue.toLocaleString();
+}
+
+function toUnixTime() {
+    const encoded = document.getElementById('datetime');
+    try {
+        const decodedTextValue = Date.parse(encoded.value);
+        document.getElementById('unixtime').value = decodedTextValue;
+    } catch (e) {
+        // > /dev/null
+    }
+}
+
 </script>
 
 </html>
