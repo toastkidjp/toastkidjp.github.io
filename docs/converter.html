@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<title>Tools</title>
+<link rel="stylesheet" media="all" href="static/stylesheet/main.css" />
+<link rel="icon" href="static/image/toast_icon.jpg" />
+    <link href="static/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="static/mui-0.10.3/js/mui.min.js"></script>
+</head>
+<body>
+<div class="mui-container">
+<a href="index.html">Back</a>
+
+<h1>Tools</h1>
+<div class="mui-panel">
+
+<h2>URL encoder/decoder</h2>
+
+<div class="mui-textfield mui-textfield--float-label">
+<textarea id="input" placeholder="Plain text" onchange="encode()">茨城特許許可局</textarea>
+</div>
+
+<div class="mui-textfield mui-textfield--float-label">
+<textarea id="encoded" placeholder="Encoded text" onchange="decode()">%E8%8C%A8%E5%9F%8E%E7%89%B9%E8%A8%B1%E8%A8%B1%E5%8F%AF%E5%B1%80</textarea>
+</div>
+
+<div id="footer">
+<p>This site is powered by GitHub Pages, and styled with <a href="https://www.muicss.com/">MUI</a>.</p>
+(c) toastkidjp
+    </div>
+
+</div>
+</div>
+</body>
+
+<script>
+function encode() {
+    const input = document.getElementById('input');
+    const encodedTextValue = encodeURIComponent(input.value);
+    document.getElementById('encoded').value = encodedTextValue;
+}
+
+function decode() {
+    const encoded = document.getElementById('encoded');
+    try {
+        const decodedTextValue = decodeURIComponent(encoded.value);
+        document.getElementById('input').value = decodedTextValue;
+    } catch (e) {
+        // > /dev/null
+    }
+}
+</script>
+
+</html>
