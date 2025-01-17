@@ -27,5 +27,5 @@ function calculate() {
             currentAmount -= (monthlyPaymentToBank - monthlyInterest);
             PaymentDetail(monthlyActualReturning, monthlyInterest, currentAmount);
         });*/
-    document.getElementById('monthlyPayment').textContent = "Monthly payment: " + monthlyPayment;
+    document.getElementById('monthlyPayment').textContent = "Monthly payment: " + Math.round(monthlyPayment);
 }
