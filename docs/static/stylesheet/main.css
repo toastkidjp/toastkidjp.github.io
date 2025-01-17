@@ -9,3 +9,6 @@ a:hover{
 	-moz-box-shadow:1px 1px 3px rgba(150,150,150,0.5);
 	box-shadow:1px 1px 3px rgba(150,150,150,0.5)
 }
+.result-text {
+    font-size: 20pt;
+}
