@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" media="all" href="{{ '/assets/stylesheet/main.css' | relative_url }}" />
+<link rel="stylesheet" media="all" href="{{ '/assets/stylesheet/sidedrawer.css' | relative_url }}" />
+<link rel="icon" href="{{ '/assets/image/toast_icon.jpg' | relative_url }}" />
+    <link href="{{ '/assets/mui-0.10.3/css/mui.min.css' | relative_url }}" rel="stylesheet" type="text/css" />
+    <script src="{{ '/assets/mui-0.10.3/js/mui.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/script/sidedrawer.js' | relative_url }}"></script>
+
+{% seo %}
+
+</head>
+<body class="hide-sidedrawer">
+
+<header id="header">
+  <div class="mui-appbar mui--appbar-line-height">
+    <div class="mui-container-fluid">
+      <a class="sidedrawer-toggle mui--visible-xs-inline-block mui--visible-sm-inline-block js-show-sidedrawer" onClick="hideSidedrawer()"><img src="{{ '/assets/image/menu.svg' | relative_url }}"></a>
+      <a class="sidedrawer-toggle mui--hidden-xs mui--hidden-sm js-hide-sidedrawer" onClick="toggleSidedrawer()"><img src="{{ '/assets/image/menu.svg' | relative_url }}"></a>
+      <span class="mui--text-title">
+        <a href="{{ '/' | absolute_url }}">
+          <h3>{{ site.title | default: site.github.repository_name }}</h3>
+        </a>
+      </span> <img src="{{ '/assets/image/toast_icon.jpg' | relative_url }}" width="32" height="32"/>
+    </div>
+  </div>
+</header>
+
+<div class="mui--appbar-height"></div>
+
+<div id="content-wrapper">
+<div class="mui-container-fluid inner clearfix">
+        <section id="main-content">
+          {{ content }}
+        </section>
+
+      </div>
+    </div>
+
+<div id="footer">
+<p>This site is powered by <a href="https://pages.github.com">GitHub Pages</a>, and styled with <a href="https://www.muicss.com/">MUI</a>.</p>
+
+(c) toastkidjp
+    </div>
+
+  </div>
+
+
+<div id="sidedrawer" class="mui--no-user-select">
+  <div id="sidedrawer-brand" class="mui--appbar-line-height">
+    <span class="mui--text-title">Menu</span>
+    <div class="mui-divider"></div>
+       <strong>My apps</strong>
+    <ul>
+          <li><a href="loan.html">Loan calculator (for morgage loan)</a>
+          <li><a href="converter.html">Converter tools</a>
+    </ul>
+  </div>
+</div>
+
+</body>
+
+</html>
