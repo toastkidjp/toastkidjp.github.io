@@ -22,11 +22,11 @@
     <div class="mui-container-fluid">
       <a class="sidedrawer-toggle mui--visible-xs-inline-block mui--visible-sm-inline-block js-show-sidedrawer" onClick="hideSidedrawer()"><img src="{{ '/assets/image/menu.svg' | relative_url }}"></a>
       <a class="sidedrawer-toggle mui--hidden-xs mui--hidden-sm js-hide-sidedrawer" onClick="toggleSidedrawer()"><img src="{{ '/assets/image/menu.svg' | relative_url }}"></a>
-      <span class="mui--text-title">
-        <a href="{{ '/' | absolute_url }}">
-          <h3>{{ site.title | default: site.github.repository_name }}</h3>
-        </a>
-      </span> <img src="{{ '/assets/image/toast_icon.jpg' | relative_url }}" width="32" height="32"/>
+      <a href="{{ '/' | absolute_url }}"><span class="mui--text-title">
+        
+          {{ site.title | default: site.github.repository_name }}</h3>
+        
+      </span></a> <!--img src="{{ '/assets/image/toast_icon.jpg' | relative_url }}" width="32" height="32"/-->
     </div>
   </div>
 </header>
