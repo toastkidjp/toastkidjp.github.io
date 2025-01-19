@@ -9,10 +9,8 @@
 /**
  * @author toastkidjp
  */
-const bodyElement = document.body;
-const sidedrawerElement = document.getElementById('sidedrawer');
-
   function toggleSidedrawer() {
+    const bodyElement = document.body;
     if (bodyElement.classList.contains('hide-sidedrawer')) {
       showSidedrawer();
       return;
@@ -22,6 +20,8 @@ const sidedrawerElement = document.getElementById('sidedrawer');
   }
 
   function showSidedrawer() {
+    const bodyElement = document.body;
+    const sidedrawerElement = document.getElementById('sidedrawer');
     // show overlay
 /*
     var options = {
@@ -44,6 +44,8 @@ const sidedrawerElement = document.getElementById('sidedrawer');
   }
 
   function hideSidedrawer() {
+    const bodyElement = document.body;
+    const sidedrawerElement = document.getElementById('sidedrawer');
     bodyElement.classList.add('hide-sidedrawer');
     bodyElement.classList.remove('mui-scroll-lock');
     sidedrawerElement.classList.remove('active');
