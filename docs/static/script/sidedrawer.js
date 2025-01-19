@@ -13,7 +13,6 @@ const bodyElement = document.body;
 const sidedrawerElement = document.getElementById('sidedrawer');
 
   function toggleSidedrawer() {
-    console.log("bodyElement.classList.contains('hide-sidedrawer') " + bodyElement.classList.contains('hide-sidedrawer'));
     if (bodyElement.classList.contains('hide-sidedrawer')) {
       showSidedrawer();
       return;
