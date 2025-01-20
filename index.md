@@ -1,21 +1,21 @@
+---
 layout: page
 title: "About toastkidjp"
 permalink: /
+---
 
-<span class="mui--text-title">toastkidjp official</span> <img src="static/image/toast_icon.jpg" width="32" height="32"/>
-
-## Bio
+# Bio
 I live in Toride City, Ibaraki Prefecture.
 
 - 2012～ Join to a Japanese internet service company.
 
-### My skill
+## My skill
 - Kotlin(Android app, PC app)
 - Java(Back-end)
 - React
 - Express(Node)
 
-### My hobby
+## My hobby
 
 1. Developing GUI apps
 2. Watching movie, oozumo, rugby union
@@ -24,15 +24,15 @@ I live in Toride City, Ibaraki Prefecture.
 5. Index fund
 6. N-Gauge
 
-## My portfolio
+# My portfolio
 
-### Android App
+## Android App
 [Yobidashi](https://play.google.com/store/apps/details?id=jp.toastkid.yobidashi)...Android web search app.
 
-### Desktop App
+## Desktop App
 [Yobidashi4](https://github.com/toastkidjp/Yobidashi4)...PC desktop app.
 
-## Links
+# Links
 - [GitHub](https://github.com/toastkidjp)
 - [Tumblr](https://toastkidjp.tumblr.com/)...My diary
 - [Qiita](https://qiita.com/toastkidjp)...Japanese tech blog forum
