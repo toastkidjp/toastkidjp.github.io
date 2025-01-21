@@ -29,7 +29,7 @@
 <body class="hide-sidedrawer">
 
 <header id="header">
-  <div class="mui-appbar mui--appbar-line-height">
+  <div class="mui-appbar mui--appbar-line-height mui--bg-primary-dark">
     <div class="mui-container-fluid">
       <a class="sidedrawer-toggle mui--visible-xs-inline-block mui--visible-sm-inline-block js-show-sidedrawer" onClick="toggleSidedrawer()"><img src="{{ '/assets/image/menu.svg' | relative_url }}"></a>
       <a class="sidedrawer-toggle mui--hidden-xs mui--hidden-sm js-hide-sidedrawer" onClick="toggleSidedrawer()"><img src="{{ '/assets/image/menu.svg' | relative_url }}"></a>
@@ -56,7 +56,7 @@
       </div>
     </div>
 
-<div id="footer">
+<div id="footer" class="mui--bg-primary-dark">
 <p>This site is powered by <a href="https://pages.github.com">GitHub Pages</a>, and styled with <a href="https://www.muicss.com/">MUI</a>.</p>
 
 (c) toastkidjp
@@ -75,14 +75,14 @@
           <li><a href="converter.html">Converter tools</a>
     </ul>
        <strong>Posts</strong>
-<ul>
+    <ul>
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <span>{{ post.date | date: "%Y-%m-%d" }}</span>
     </li>
   {% endfor %}
-  
+    </ul>
   
   {% for tag in site.tags %}
   <strong>{{ tag[0] }}</strong>
