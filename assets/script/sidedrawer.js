@@ -32,10 +32,9 @@
       }
     };*/
 
-//const overlayEl = mui.overlay('on', options);
-
     // show element
-    //sidedrawerElement.appendTo($overlayEl);
+    const overlayElement = mui.overlay('on', { onclose: hideSidedrawer });
+    document.getElementById('content-wrapper').append(overlayElement);
     setTimeout(function() {
       bodyElement.classList.remove('hide-sidedrawer');
       bodyElement.classList.add('mui-scroll-lock');
