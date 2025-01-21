@@ -9,17 +9,21 @@
 /**
  * @author toastkidjp
  */
+function sanitize(input) {
+    return input.replaceAll('<', '').replaceAll('>', '');
+}
+
 function encode() {
     const input = document.getElementById('input');
     const encodedTextValue = encodeURIComponent(input.value);
-    document.getElementById('encoded').value = encodedTextValue;
+    document.getElementById('encoded').value = sanitize(encodedTextValue);
 }
 
 function decode() {
     const encoded = document.getElementById('encoded');
     try {
         const decodedTextValue = decodeURIComponent(encoded.value);
-        document.getElementById('input').value = decodedTextValue;
+        document.getElementById('input').value = sanitize(decodedTextValue);
     } catch (e) {
         // > /dev/null
     }
@@ -34,7 +38,7 @@ function setInitialTime() {
 function toDateTime() {
     const input = document.getElementById('unixtime');
     const encodedTextValue = new Date(Number(input.value));
-    document.getElementById('datetime').value = encodedTextValue.toLocaleString();
+    document.getElementById('datetime').value = sanitize(encodedTextValue.toLocaleString());
 }
 
 function toUnixTime() {
