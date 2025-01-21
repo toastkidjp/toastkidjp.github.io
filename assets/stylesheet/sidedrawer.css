@@ -4,7 +4,7 @@
  */
 html,
 body {
-  //height: 100%;
+  height: 100%;
   background-color: #eee;
 }
 
@@ -38,7 +38,7 @@ button {
   width: 200px;
   left: -200px;
   overflow: auto;
-  z-index: 2;
+  z-index: 9999999992;
   background-color: #fff;
   transition: transform 0.2s;
 }
