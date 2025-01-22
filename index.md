@@ -4,10 +4,33 @@ title: "About toastkidjp"
 permalink: /
 ---
 
-# Bio
-I live in Toride City, Ibaraki Prefecture.
+Thank you for visiting my web site.
 
-- 2012～ Join to a Japanese internet service company.
+# Bio
+I'm a programmer and GUI app developer. I live in Ibaraki prefecture, Japan.
+
+I joined a Japanese web service company in April 2012.
+
+## Detail
+- Web backend (2012-15)
+- Android apps (2016-23)
+- Offshore development (2016-2021)
+- Apps backend (2018-20)
+- Web frontend (2023-)
+- Web BFF (2023-)
+
+# My portfolio and skill set
+
+## Android App
+[Yobidashi](https://play.google.com/store/apps/details?id=jp.toastkid.yobidashi)...Android web search app.
+
+## Desktop App
+[Yobidashi4](https://github.com/toastkidjp/Yobidashi4)...PC desktop app.
+
+## Links
+- [GitHub](https://github.com/toastkidjp)
+- [Tumblr](https://toastkidjp.tumblr.com/)...My diary
+- [Qiita](https://qiita.com/toastkidjp)...Japanese tech blog forum
 
 ## My skill
 - Kotlin(Android app, PC app)
@@ -23,18 +46,4 @@ I live in Toride City, Ibaraki Prefecture.
 4. Detached house
 5. Index fund
 6. N-Gauge
-
-# My portfolio
-
-## Android App
-[Yobidashi](https://play.google.com/store/apps/details?id=jp.toastkid.yobidashi)...Android web search app.
-
-## Desktop App
-[Yobidashi4](https://github.com/toastkidjp/Yobidashi4)...PC desktop app.
-
-# Links
-- [GitHub](https://github.com/toastkidjp)
-- [Tumblr](https://toastkidjp.tumblr.com/)...My diary
-- [Qiita](https://qiita.com/toastkidjp)...Japanese tech blog forum
-
 
