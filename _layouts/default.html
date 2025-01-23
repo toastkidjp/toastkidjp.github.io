@@ -28,13 +28,13 @@
 </head>
 <body class="hide-sidedrawer">
 
-<header id="header">
+<header id="header" class="mui-appbar">
   <nav id="appbar" class="mui-container-fluid">
   <table width="100%" cellspacing="0">
     <tr class="mui--appbar-height">
       <td>
-        <a class="sidedrawer-toggle mui--visible-xs-inline-block mui--visible-sm-inline-block js-show-sidedrawer" onClick="toggleSidedrawer()"><img src="static/image/menu.svg"></a>
-        <a class="sidedrawer-toggle mui--hidden-xs mui--hidden-sm js-hide-sidedrawer" onClick="toggleSidedrawer()"><img src="static/image/menu.svg"></a>
+        <a class="sidedrawer-toggle mui--visible-xs-inline-block mui--visible-sm-inline-block js-show-sidedrawer" onClick="toggleSidedrawer()"><img src="{{ '/assets/image/menu.svg' | relative_url }}"></a>
+        <a class="sidedrawer-toggle mui--hidden-xs mui--hidden-sm js-hide-sidedrawer" onClick="toggleSidedrawer()"><img src="{{ '/assets/image/menu.svg' | relative_url }}"></a>
         <a class="mui--text-title header-titie-text" href="{{ '/' | absolute_url }}">
 {{ site.title | default: site.github.repository_name }} 
         </a>
