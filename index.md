@@ -29,8 +29,8 @@ I joined a Japanese web service company in April 2012.
 
 ## Links
 - [GitHub](https://github.com/toastkidjp)
-- [Tumblr](https://toastkidjp.tumblr.com/)...My diary
 - [Qiita](https://qiita.com/toastkidjp)...Japanese tech blog forum
+- [Tumblr](https://toastkidjp.tumblr.com/)...My diary
 
 ## My skill
 - Kotlin(Android app, PC app)
