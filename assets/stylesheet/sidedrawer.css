@@ -35,8 +35,8 @@ button {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 240px;
-  left: -240px;
+  width: 200px;
+  left: -200px;
   overflow: auto;
   z-index: 9999999992;
   background-color: #fff;
@@ -54,15 +54,15 @@ button {
 
 @media (min-width: 768px) {
   #header {
-    left: 240px;
+    left: 200px;
   }
   
   #sidedrawer {
-    transform: translate(240px);
+    transform: translate(200px);
   }
   
   #content-wrapper {
-    margin-left: 240px;
+    margin-left: 200px;
   }
   
   body.hide-sidedrawer #header {
@@ -87,7 +87,7 @@ button {
  * Toggle Side drawer
  */
 #sidedrawer.active {
-  transform: translate(240px);
+  transform: translate(200px);
 }
 
 
