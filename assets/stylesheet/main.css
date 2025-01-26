@@ -12,7 +12,7 @@ a:hover{
 .result-text {
     font-size: 20pt;
 }
-.header-titie-text {
+.mui--text-title {
   color: #FFF
 }
 .mui--bg-primary {
@@ -23,4 +23,13 @@ a:hover{
 }
 .mui-appbar {
   background-color: #0277BD;
+}
+#content-wrapper {
+  margin-top: 4px;
+}
+
+.appbar-left {
+  height: 56px;
+  display: flex;
+  align-items: center;
 }
