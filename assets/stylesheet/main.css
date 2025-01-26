@@ -33,3 +33,10 @@ a:hover{
   display: flex;
   align-items: center;
 }
+
+.horizontal-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
