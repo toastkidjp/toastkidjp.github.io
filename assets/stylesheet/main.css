@@ -12,7 +12,7 @@ a:hover{
 .result-text {
     font-size: 20pt;
 }
-.mui--text-title {
+.mui-appbar .mui--text-title {
   color: #FFF
 }
 .mui--bg-primary {
