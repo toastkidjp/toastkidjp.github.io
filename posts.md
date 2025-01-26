@@ -4,7 +4,7 @@ title: "Posts"
 ---
 
 # All
-  {% for post in site.posts %}
+  {% for post in site.posts.reverse() %}
 1. [{{ post.title }}]({{ post.url | relative_url }}): {{ post.date | date: "%Y-%m-%d" }}
   {% endfor %}
 
