@@ -13,7 +13,7 @@ function calculate() {
     const paymentCount = (document.getElementById("term").value * 12);
     const convertedRate = document.getElementById("interestRate").value / 100.0;
     const actualTotalAmount = document.getElementById("amount").value - document.getElementById("downPayment").value;
-    const currentAmount = actualTotalAmount;
+    let currentAmount = actualTotalAmount;
     const poweredMonthlyInterestRate = Math.pow((1 + convertedRate / 12), paymentCount);
 
     const numerator = (actualTotalAmount * convertedRate) / 12 * poweredMonthlyInterestRate;
@@ -21,11 +21,17 @@ function calculate() {
     const monthlyPaymentToBank = Math.max(numerator / denominator, 0.0);
 
     const monthlyPayment = monthlyPaymentToBank + document.getElementById("managementFee").value + document.getElementById("renovationReserves").value;
-        /*return LoanPayment(monthlyPayment, (0 until paymentCount).map {
+    document.getElementById('monthlyPayment').textContent = "Monthly payment: " + Math.round(monthlyPayment);
+
+    let newTable = '<table cellpadding="0" cellspacing="0" border="0" width="100%">'
+      + '<th>Amount</th><th>Actual returning</th><th>Interest</th>';
+    for (let i = 0; i < paymentCount; i++) {
         const monthlyInterest = currentAmount * (convertedRate / 12);
         const monthlyActualReturning = monthlyPaymentToBank - monthlyInterest;
-            currentAmount -= (monthlyPaymentToBank - monthlyInterest);
-            PaymentDetail(monthlyActualReturning, monthlyInterest, currentAmount);
-        });*/
-    document.getElementById('monthlyPayment').textContent = "Monthly payment: " + Math.round(monthlyPayment);
+        currentAmount -= (monthlyPaymentToBank - monthlyInterest);
+        newTable += '<tr><td class="mui-panel">' + Math.round(currentAmount) + '</td><td class="mui-panel">' + Math.round(monthlyActualReturning) + '</td><td class="mui-panel">' + Math.round(monthlyInterest) + '</td></tr>';
+    }
+    newTable += '</table>';
+
+    document.getElementById('paymentSchedule').innerHTML = newTable;
 }
