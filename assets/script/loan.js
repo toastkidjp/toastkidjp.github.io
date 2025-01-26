@@ -29,7 +29,7 @@ function calculate() {
         const monthlyInterest = currentAmount * (convertedRate / 12);
         const monthlyActualReturning = monthlyPaymentToBank - monthlyInterest;
         currentAmount -= (monthlyPaymentToBank - monthlyInterest);
-        newTable += '<tr><td class="mui-panel">' + Math.round(currentAmount) + '</td><td class="mui-panel">' + Math.round(monthlyActualReturning) + '</td><td class="mui-panel">' + Math.round(monthlyInterest) + '</td></tr>';
+        newTable += '<tr><td>' + Math.round(currentAmount) + '</td><td>' + Math.round(monthlyActualReturning) + '</td><td>' + Math.round(monthlyInterest) + '</td></tr>';
     }
     newTable += '</table>';
 
