@@ -38,7 +38,9 @@ I joined a Japanese web service company in April 2012.
 - React
 - Express(Node)
 
-## My hobby
+----
+
+# My hobby
 
 1. Developing GUI apps
 2. Watching movie, oozumo, rugby union
@@ -46,4 +48,5 @@ I joined a Japanese web service company in April 2012.
 4. Detached house
 5. Index fund
 6. N-Gauge
+7. Reading books
 
