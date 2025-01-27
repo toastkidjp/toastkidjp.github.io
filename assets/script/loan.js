@@ -21,7 +21,7 @@ function calculate() {
     const monthlyPaymentToBank = Math.max(numerator / denominator, 0.0);
 
     const monthlyPayment = monthlyPaymentToBank + document.getElementById("managementFee").value + document.getElementById("renovationReserves").value;
-    document.getElementById('monthlyPayment').textContent = "Monthly payment: " + Math.round(monthlyPayment);
+    document.getElementById('monthlyPayment').textContent = "Monthly payment: " + Math.round(monthlyPayment).toLocaleString();
 
     let newTable = '<table cellpadding="0" cellspacing="0" border="0" width="100%">'
       + '<th>Amount</th><th>Actual returning</th><th>Interest</th>';
@@ -29,7 +29,7 @@ function calculate() {
         const monthlyInterest = currentAmount * (convertedRate / 12);
         const monthlyActualReturning = monthlyPaymentToBank - monthlyInterest;
         currentAmount -= (monthlyPaymentToBank - monthlyInterest);
-        newTable += '<tr><td>' + Math.round(currentAmount) + '</td><td>' + Math.round(monthlyActualReturning) + '</td><td>' + Math.round(monthlyInterest) + '</td></tr>';
+        newTable += '<tr><td>' + Math.round(currentAmount).toLocaleString() + '</td><td>' + Math.round(monthlyActualReturning).toLocaleString() + '</td><td>' + Math.round(monthlyInterest).toLocaleString() + '</td></tr>';
     }
     newTable += '</table>';
 
