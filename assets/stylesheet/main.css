@@ -48,4 +48,6 @@ a:hover{
 #paymentSchedule table tr:nth-child(odd) {
   background-color: rgba(205, 205, 255, 0.18);
 }
-
+div#input {
+  margin-right: 20px;
+}
