@@ -34,18 +34,18 @@ a:hover{
   flex-wrap: wrap;
 }
 
-#paymentSchedule table th {
+table th {
   background-color: rgba(22, 0, 80, 0.9);
   color: #FFF;
 }
-#paymentSchedule table td {
+table td {
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 0;
     -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 2px 0 rgba(0, 0, 0, .12);
 }
-#paymentSchedule table tr:nth-child(odd) {
+table tr:nth-child(odd) {
   background-color: rgba(205, 205, 255, 0.18);
 }
 div#input {
