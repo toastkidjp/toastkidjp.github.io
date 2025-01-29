@@ -6,8 +6,7 @@ title: "Posts"
 # All
 
 | Title | Last update
-|:---|:---
-  {% for post in site.posts reversed %}
+|:---|:---  {% for post in site.posts reversed %}
 | [{{ post.title }}]({{ post.url | relative_url }}) | {{ post.date | date: "%Y-%m-%d" }}
   {% endfor %}
 
