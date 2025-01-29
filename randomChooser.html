@@ -9,17 +9,7 @@ title: Random chooser
 <span>This tool runs in your browser. It doesn't send any of your input data to external server.
 This tool is provided "as is" and without any warranty.</span>
 
-<script>
-function choose() {
-  const text = document.getElementById("candidates").textContent;
-  if (!text) {
-    document.getElementById("result").innerHTML = "";
-    return;
-  }
-  const lines = text.split("\n").filter((t) => t);
-  document.getElementById("result").innerHTML = "<p class='result-text'>" + lines[Math.floor(Math.random() * lines.length)] + "</p>";
-}
-</script>
+    <script src="assets/script/randomChooser.js"></script>
 
 <span>This tool runs in your browser. It doesn't send any of your input data to external server.
 This tool is provided "as is" and without any warranty.</span>
