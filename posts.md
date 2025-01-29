@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Posts"
+date: 2025-01-30 00:00:00 +0900
 ---
 
 # All
