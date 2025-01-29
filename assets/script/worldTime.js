@@ -19,6 +19,7 @@ const timezones = [
   { name: "Pacific/Palau", icon: "\uD83C\uDDF5\uD83C\uDDFC" },
   { name: "Asia/Ulaanbaatar", icon: "\uD83C\uDDF2\uD83C\uDDF3" },
   { name: "Asia/Ho_Chi_Minh", icon: "\uD83C\uDDFB\uD83C\uDDF3" },
+  { name: "Asia/Kolkata", icon: "\uD83C\uDDEE\uD83C\uDDF3" },
   { name: "Asia/Almaty", icon: "\uD83C\uDDF0\uD83C\uDDFF" }, 
   { name: "Asia/Tbilisi", icon: "\uD83C\uDDEC\uD83C\uDDEA" },
   { name: "Asia/Dubai", icon: "\uD83C\uDDE6\uD83C\uDDEA" },
