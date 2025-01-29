@@ -42,6 +42,12 @@ const timezones = [
   { name: "America/New_York", icon: "\uD83C\uDDFA\uD83C\uDDF8" },
   { name: "US/Pacific", icon: "\uD83C\uDDFA\uD83C\uDDF8" },
   { name: "US/Hawaii", icon: "\uD83C\uDDFA\uD83C\uDDF8" },
+  { name: "Asia/Riyadh", icon: "\uD83C\uDDF8\uD83C\uDDE6" },
+  { name: "Atlantic/Canary", icon: "\uD83C\uDDEE\uD83C\uDDE8" },
+  { name: "Europe/Lisbon", icon: "\uD83C\uDDF5\uD83C\uDDF9" },
+  { name: "Pacific/Kiritimati", icon: "\uD83C\uDDF0\uD83C\uDDEE" },
+  { name: "Asia/Katmandu", icon: "\uD83C\uDDF3\uD83C\uDDF5" },
+  { name: "Asia/Kabul", icon: "\uD83C\uDDE6\uD83C\uDDEB" },
 ];
 
 function makeTimeContent() {
