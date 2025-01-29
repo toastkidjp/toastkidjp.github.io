@@ -10,6 +10,9 @@
  * @author toastkidjp
  */
 const timezones = [
+  { name: "Pacific/Apia", icon: "\uD83C\uDDFC\uD83C\uDDF8" },
+  { name: "Pacific/Tongatapu", icon: "\uD83C\uDDF9\uD83C\uDDF4" },
+  { name: "Pacific/Fiji", icon: "\uD83C\uDDEB\uD83C\uDDEF" },
   { name: "NZ", icon: "\uD83C\uDDF3\uD83C\uDDFF" },
   { name: "Australia/Sydney", icon: "\uD83C\uDDE6\uD83C\uDDFA" },
   { name: "Asia/Tokyo", icon: "\uD83C\uDDEF\uD83C\uDDF5" },
@@ -38,9 +41,6 @@ const timezones = [
   { name: "America/New_York", icon: "\uD83C\uDDFA\uD83C\uDDF8" },
   { name: "US/Pacific", icon: "\uD83C\uDDFA\uD83C\uDDF8" },
   { name: "US/Hawaii", icon: "\uD83C\uDDFA\uD83C\uDDF8" },
-  { name: "Pacific/Apia", icon: "\uD83C\uDDFC\uD83C\uDDF8" },
-  { name: "Pacific/Tongatapu", icon: "\uD83C\uDDF9\uD83C\uDDF4" },
-  { name: "Pacific/Fiji", icon: "\uD83C\uDDEB\uD83C\uDDEF" },
 ];
 
 function makeTimeContent() {
