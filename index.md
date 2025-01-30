@@ -34,10 +34,10 @@ I joined a Japanese web service company in April 2012.
 - [Tumblr](https://toastkidjp.tumblr.com/)...My diary
 
 ## My skill
-- Kotlin(Android app, PC app)
-- Java(Back-end)
-- React
-- Express(Node)
+- Kotlin(Android app, PC app): 7 years
+- Java(Back-end): 12 years
+- React: 1 year
+- Express(Node): 1 year
 
 ----
 
