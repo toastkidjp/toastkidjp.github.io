@@ -2,7 +2,7 @@
 layout: page
 title: "About toastkidjp"
 permalink: /
-date: 2025-01-30 00:00:00 +0900
+date: 2025-01-31 00:00:00 +0900
 ---
 
 Thank you for visiting my web site.
