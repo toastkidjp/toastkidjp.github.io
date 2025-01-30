@@ -51,11 +51,11 @@ const timezones = [
 ];
 
 function makeTimeContent() {
-let table = '<table cellpadding="0" cellspacing="0" border="0" width="100%"><tr><th>Timezone</th><th>Time</th></tr>';
-const now = new Date();
-for (const timezone of timezones) { 
-  table += "<tr><td>" + timezone.icon + " " + timezone.name + "</td><td>" + now.toLocaleString('en-US', { timeZone: timezone.name }) + "</td></tr>";
-}
-table += '</td></tr></table>';
-document.getElementById("worldTimes").innerHTML = table;
+  let table = '<table cellpadding="0" cellspacing="0" border="0" width="100%"><tr><th>Timezone</th><th>Time</th></tr>';
+  const now = new Date();
+  for (const timezone of timezones) { 
+    table += "<tr><td>" + timezone.icon + " " + timezone.name + "</td><td>" + now.toLocaleString('en-US', { timeZone: timezone.name }) + "</td></tr>";
+  }
+  table += '</td></tr></table>';
+  document.getElementById("worldTimes").innerHTML = table;
 }
