@@ -16,5 +16,8 @@ function choose() {
     return;
   }
   const lines = text.split("\n").filter((t) => t);
-  document.getElementById("result").innerHTML = "<p class='result-text'>" + lines[Math.floor(Math.random() * lines.length)] + "</p>";
+  document.getElementById("result").innerHTML =
+    "<p class='result-text'>"
+    + lines[Math.floor(Math.random() * lines.length)]
+    + "</p>";
 }
