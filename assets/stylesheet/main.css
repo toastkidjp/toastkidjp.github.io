@@ -37,6 +37,12 @@ a:hover{
 table th {
   background-color: rgba(22, 0, 80, 0.9);
   color: #FFF;
+  padding: 4px;
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+  unicode-bidi: isolate;
 }
 table td {
     padding: 15px;
