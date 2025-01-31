@@ -23,7 +23,8 @@ I joined a Japanese web service company in April 2012.
 # My portfolio and skill set
 
 ## Android App
-[Yobidashi](https://play.google.com/store/apps/details?id=jp.toastkid.yobidashi)...Android web search app.
+- [Yobidashi](https://play.google.com/store/apps/details?id=jp.toastkid.yobidashi)...Android web search app.
+- [Other](https://play.google.com/store/apps/developer?id=toastkidjp)
 
 ## Desktop App
 [Yobidashi4](https://github.com/toastkidjp/Yobidashi4)...PC desktop app.
