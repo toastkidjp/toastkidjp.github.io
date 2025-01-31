@@ -48,6 +48,10 @@ const timezones = [
   { name: "America/New_York", icon: "\uD83C\uDDFA\uD83C\uDDF8" },
   { name: "US/Pacific", icon: "\uD83C\uDDFA\uD83C\uDDF8" },
   { name: "US/Hawaii", icon: "\uD83C\uDDFA\uD83C\uDDF8" },
+  { name: "America/Havana", icon: "\uD83C\uDDE8\uD83C\uDDFA" },
+  { name: "Atlantic/Faeroe", icon: "\uD83C\uDDEB\uD83C\uDDF4" },
+  { name: "Antarctica/Syowa", icon: "\uD83C\uDDE6\uD83C\uDDF6" },
+  { name: "Arctic/Longyearbyen", icon: "\uD83C\uDDF8\uD83C\uDDEF" },
 ];
 
 function makeTimeContent() {
