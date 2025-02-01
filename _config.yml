@@ -3,6 +3,7 @@ description: This page is toastkidjp's official site. toastkidjp is a Japanese p
 show_downloads: true
 google_analytics: G-KK206BWSDN
 markdown: GFM
+url: "https://toastkidjp.github.io"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
