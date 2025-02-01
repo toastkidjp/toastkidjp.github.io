@@ -2,7 +2,7 @@
 layout: page
 title: "About toastkidjp"
 permalink: /
-date: 2025-01-31 00:00:00 +0900
+date: 2025-02-01 00:00:00 +0900
 ---
 
 Thank you for visiting my web site.
@@ -23,7 +23,7 @@ I joined a Japanese web service company in April 2012.
 # My portfolio and skill set
 
 ## Android App
-- [Yobidashi](https://play.google.com/store/apps/details?id=jp.toastkid.yobidashi)...Android web search app.
+- <img src="{{ '/assets/image/ic_yobidashi.webp' | relative_url }}" width="64" height="64" />[Yobidashi](https://play.google.com/store/apps/details?id=jp.toastkid.yobidashi)...Android web search app.
 - [Other](https://play.google.com/store/apps/developer?id=toastkidjp)
 
 ## Desktop App
