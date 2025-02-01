@@ -27,12 +27,12 @@ I joined a Japanese web service company in April 2012.
 - [Other](https://play.google.com/store/apps/developer?id=toastkidjp)
 
 ## Desktop App
-[Yobidashi4](https://github.com/toastkidjp/Yobidashi4)...PC desktop app.
+[Yobidashi4](https://github.com/toastkidjp/Yobidashi4): PC desktop app.
 
 ## Links
 - [GitHub](https://github.com/toastkidjp)
-- [Qiita](https://qiita.com/toastkidjp)...Japanese tech blog forum
-- [Tumblr](https://toastkidjp.tumblr.com/)...My diary
+- [Qiita](https://qiita.com/toastkidjp): Japanese tech blog forum
+- [Tumblr](https://toastkidjp.tumblr.com/): My diary
 
 ## My skill
 - Kotlin(Android app, PC app): 7 years
