@@ -1,10 +1,10 @@
 ---
 layout: page
 title: "Posts"
-date: 2025-01-30 00:00:00 +0900
+date: 2025-02-01 00:00:00 +0900
 ---
 
-# All
+# All Posts
 
 | Title | Last update
 |:---|:---  {% for post in site.posts reversed %}
