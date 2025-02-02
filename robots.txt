@@ -1,3 +1,4 @@
+Sitemap: https://toastkidjp.github.io/sitemap.xml
+
 User-agent: Googlebot
 Allow: /
-Sitemap: https://toastkidjp.github.io/sitemap.xml
