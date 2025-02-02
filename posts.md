@@ -4,7 +4,7 @@ title: "Posts"
 date: 2025-02-01 00:00:00 +0900
 ---
 
-# All Posts
+# {{ site.posts | size }} Posts
 
 | Title | Last update
 |:---|:---  {% for post in site.posts reversed %}
