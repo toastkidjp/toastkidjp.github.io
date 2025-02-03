@@ -50,3 +50,12 @@ function toUnixTime() {
     // > /dev/null
   }
 }
+
+function colorCodeToColor() {
+  const text = document.getElementById("colorCode").value;
+  console.log(text);
+  if (!text) {
+    return;
+  }
+  document.getElementById("result").style.background = text;
+}
