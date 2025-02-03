@@ -2,6 +2,7 @@ Sitemap: https://toastkidjp.github.io/sitemap.xml
 
 User-agent: Googlebot
 Allow: /
+Disallow: /assets/
 
 # Common Crawl's crawler
 User-agent: CCBot
