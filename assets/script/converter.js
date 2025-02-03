@@ -56,5 +56,5 @@ function colorCodeToColor() {
   if (!text) {
     return;
   }
-  document.getElementById("result").style.background = text;
+  document.getElementById("colorResult").style.background = text;
 }
