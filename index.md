@@ -28,6 +28,8 @@ I joined a Japanese web service company in April 2012.
 
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=toastkidjp)](https://github.com/toastkidjp)
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=toastkidjp)](https://github.com/toastkidjp)
+
 [![GitHub trophy](https://github-profile-trophy.vercel.app/?username=toastkidjp)](https://github.com/toastkidjp)
 
 
