@@ -53,7 +53,6 @@ function toUnixTime() {
 
 function colorCodeToColor() {
   const text = document.getElementById("colorCode").value;
-  console.log(text);
   if (!text) {
     return;
   }
