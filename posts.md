@@ -3,6 +3,7 @@ layout: page
 title: "Posts"
 date: 2025-02-01 00:00:00 +0900
 ---
+<a href="https://toastkidjp.github.io/feed.xml"><img src="assets/image/ic_rss_feed.svg" style="color: #40000A;"></a>
 
 # {{ site.posts | size }} Posts
 
