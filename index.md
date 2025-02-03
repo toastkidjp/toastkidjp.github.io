@@ -20,17 +20,25 @@ I joined a Japanese web service company in April 2012.
 - Web frontend (2023-)
 - Web BFF (2023-)
 
-# My portfolio and skill set
+# My skill set
 [![GitHub badge](https://img.shields.io/github/followers/toastkidjp?label=follow&logo=github&style=flat)](https://github.com/toastkidjp)
 [![My Qiita posts](https://qiita-badge.apiapi.app/s/toastkidjp/posts.svg)](http://qiita.com/toastkidjp)
 [![My Qiita contributions](https://qiita-badge.apiapi.app/s/toastkidjp/contributions.svg)](http://qiita.com/toastkidjp)
 
-<div class="horizontal-flex-container">
+
 [![GitHub stats](https://github-readme-stats.vercel.app/api?username=toastkidjp)](https://github.com/toastkidjp) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=toastkidjp)](https://github.com/toastkidjp)
-</div>
 
 [![GitHub trophy](https://github-profile-trophy.vercel.app/?username=toastkidjp)](https://github.com/toastkidjp)
 
+## Programming languages and frameworks I have experience with
+- Kotlin(Android app, PC app): 7 years
+- Java(Back-end): 12 years
+- React: 1 year
+- Express(Node): 1 year
+
+(2025)
+
+# My portfolio
 
 ## Android App
 
@@ -51,12 +59,6 @@ Web search app for Android.
 - [GitHub](https://github.com/toastkidjp)
 - [Qiita](https://qiita.com/toastkidjp): Japanese tech blog forum
 - [Tumblr](https://toastkidjp.tumblr.com/): My diary
-
-## My skill
-- Kotlin(Android app, PC app): 7 years
-- Java(Back-end): 12 years
-- React: 1 year
-- Express(Node): 1 year
 
 ----
 
