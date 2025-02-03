@@ -25,10 +25,9 @@ I joined a Japanese web service company in April 2012.
 [![My Qiita posts](https://qiita-badge.apiapi.app/s/toastkidjp/posts.svg)](http://qiita.com/toastkidjp)
 [![My Qiita contributions](https://qiita-badge.apiapi.app/s/toastkidjp/contributions.svg)](http://qiita.com/toastkidjp)
 
-
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=toastkidjp)](https://github.com/toastkidjp)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=toastkidjp)](https://github.com/toastkidjp)
+<div class="horizontal-flex-container">
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=toastkidjp)](https://github.com/toastkidjp) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=toastkidjp)](https://github.com/toastkidjp)
+</div>
 
 [![GitHub trophy](https://github-profile-trophy.vercel.app/?username=toastkidjp)](https://github.com/toastkidjp)
 
