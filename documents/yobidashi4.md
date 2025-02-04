@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What's Yobidashi4?
-last_modified_at: 2025-02-04 00:00:00 +0900
+last_modified_at: 2025-02-05 00:00:00 +0900
 ---
 # [Yobidashi4](https://github.com/toastkidjp/Yobidashi4): PC desktop app
 This app is editor for me. This app includes many useful functions.
