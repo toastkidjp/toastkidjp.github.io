@@ -10,7 +10,7 @@
  * @author toastkidjp
  */
 function choose() {
-  const text = document.getElementById("candidates").textContent;
+  const text = document.getElementById("candidates").value;
   if (!text) {
     document.getElementById("result").innerHTML = "";
     return;
@@ -23,5 +23,5 @@ function choose() {
 }
 
 function clearInput() {
-  document.getElementById("candidates").textContent = "";
+  document.getElementById("candidates").value = "";
 }
