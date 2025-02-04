@@ -55,7 +55,7 @@ Web search app for Android.
 ### [Other](https://play.google.com/store/apps/developer?id=toastkidjp)
 
 ## Desktop App
-[Yobidashi4](https://github.com/toastkidjp/Yobidashi4): PC desktop app.
+[Yobidashi4]({{ '/documents/yobidashi4.html' | relative_url }}): PC desktop app.
 
 ## Links
 - [GitHub](https://github.com/toastkidjp)
