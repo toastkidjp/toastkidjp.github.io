@@ -54,3 +54,15 @@ It makes easier for writing unit test, and keeping simple UI code.
 
 ## Unit test code coverage
 Over 90%
+
+# Other
+
+## Why does this app name contain "4"?
+
+1. [(Deprecated) Yobidashi 1](https://github.com/toastkidjp/Yobidashi): This app had been written with Java and JavaFX(8).
+2. [Yobidashi 2](https://github.com/toastkidjp/Yobidashi_kt): Android app
+3. [(Deprecated) Yobidashi Compact](https://github.com/toastkidjp/yobidashi_compact): Simple tool for management my articles. This app has been written by Swing.
+4. This app.
+
+Generally in Japan, the number 4 is considered unlucky, but I don't think so.
+
