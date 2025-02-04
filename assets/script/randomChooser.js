@@ -21,3 +21,7 @@ function choose() {
     + lines[Math.floor(Math.random() * lines.length)]
     + "</p>";
 }
+
+function clearInput() {
+  document.getElementById("candidates").textContent = "";
+}
