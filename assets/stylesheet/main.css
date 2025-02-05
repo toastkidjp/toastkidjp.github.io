@@ -65,7 +65,7 @@ nav table td {
 nav table tr:nth-child(odd) {
   background-color: transparent;
 }
-table td:hover {
+table:not(header table) td:hover {
   background-color: rgba(22, 0, 80, 0.9);
   color: white;
 }
