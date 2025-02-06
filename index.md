@@ -35,6 +35,7 @@ I joined a Japanese web service company in April 2012.
 ## Programming languages and frameworks I have experience with
 - Kotlin(Android app, PC app): 7 years
 - Java(Back-end): 12 years
+- Java GUI(Swing, SWT, JavaFX, Android, and Jetpack Compose): Over 10 years
 - React: 1 year
 - Express(Node): 1 year
 
