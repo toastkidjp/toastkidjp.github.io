@@ -4,6 +4,10 @@ title: What's Yobidashi4?
 last_modified_at: 2025-02-05 00:00:00 +0900
 ---
 # [Yobidashi4](https://github.com/toastkidjp/Yobidashi4): PC desktop app
+[![GitHub release](https://img.shields.io/github/release/toastkidjp/Yobidashi4.svg)](https://github.com/toastkidjp/Yobidashi4/releases)
+[![GitHub issues](https://img.shields.io/github/issues/toastkidjp/Yobidashi4.svg)](https://github.com/toastkidjp/Yobidashi4/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/toastkidjp/Yobidashi4.svg)](https://github.com/toastkidjp/Yobidashi4/issues?q=is%3Aissue+is%3Aclosed)
+
 This app is editor for me. This app includes many useful functions.
 
 <img src="{{ '/assets/image/yobidashi4/editor.png' }}" alt="Tab markdown editor" width="50%" height="50%">
