@@ -43,19 +43,11 @@ I joined a Japanese web service company in April 2012.
 # My portfolio
 
 ## Android App
-
-### <img src="{{ '/assets/image/ic_yobidashi.webp' | relative_url }}" width="64" height="64" />[Yobidashi](https://play.google.com/store/apps/details?id=jp.toastkid.yobidashi)...Android web search app.
-[![license](https://img.shields.io/github/license/toastkidjp/Yobidashi_kt.svg)](./LICENSE)
-[![GitHub release](https://img.shields.io/github/release/toastkidjp/Yobidashi_kt.svg)](https://github.com/toastkidjp/Yobidashi_kt/releases)
-[![GitHub issues](https://img.shields.io/github/issues/toastkidjp/Yobidashi_kt.svg)](https://github.com/toastkidjp/Yobidashi_kt/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/toastkidjp/Yobidashi_kt.svg)](https://github.com/toastkidjp/Yobidashi_kt/issues?q=is%3Aissue+is%3Aclosed)
-
-Web search app for Android.
-
-### [Other](https://play.google.com/store/apps/developer?id=toastkidjp)
+- [Yobidashi4]({{ '/documents/yobidashi_android.html' | relative_url }}): Android web search app.
+- [Other](https://play.google.com/store/apps/developer?id=toastkidjp)
 
 ## Desktop App
-[Yobidashi4]({{ '/documents/yobidashi4.html' | relative_url }}): PC desktop app.
+- [Yobidashi4]({{ '/documents/yobidashi4.html' | relative_url }}): PC desktop app.
 
 ## Links
 - [GitHub](https://github.com/toastkidjp)
