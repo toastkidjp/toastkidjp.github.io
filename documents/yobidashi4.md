@@ -6,7 +6,10 @@ last_modified_at: 2025-02-05 00:00:00 +0900
 # [Yobidashi4](https://github.com/toastkidjp/Yobidashi4): PC desktop app
 This app is editor for me. This app includes many useful functions.
 
-![Tab markdown editor]({{ '/assets/image/yobidashi4/editor.png' }}) ![Web browsing]({{ '/assets/image/yobidashi4/web-browser.png' }}) ![Loan calculator]({{ '/assets/image/yobidashi4/loan.png' }})
+<img src="{{ '/assets/image/yobidashi4/editor.png' }}" alt="Tab markdown editor" width="50%" height="50%">
+<img src="{{ '/assets/image/yobidashi4/web-browser.png' }}" alt="Web browsing" width="50%" height="50%">
+<img src="{{ '/assets/image/yobidashi4/loan.png' }}" alt="Loan calculator" width="50%" height="50%">
+
 
 - Tab editor (optimized for writing Markdown, enable to highlighing and preview)
 - Tab web browsing (powered by Chromium embedded)
