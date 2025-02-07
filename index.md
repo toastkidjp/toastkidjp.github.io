@@ -8,7 +8,7 @@ last_modified_at: 2025-02-01 00:00:00 +0900
 Thank you for visiting my web site.
 
 # Bio
-![My avatar]({{ '/assets/image/toast_icon.jpg' | relative_url }})
+<img src="{{ '/assets/image/toast_icon.jpg' | relative_url }}" alt="My avatar" width="50%" height="50%">
 
 I'm a programmer and GUI app developer. I live in Ibaraki prefecture, Japan.
 
