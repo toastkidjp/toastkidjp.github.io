@@ -147,7 +147,6 @@ button {
 
 #sidedrawer strong {
   display: block;
-  padding: 15px 22px;
   cursor: pointer;
 }
 
@@ -157,4 +156,8 @@ button {
 
 #sidedrawer strong + ul > li {
   padding: 6px 0px;
+}
+
+#sidedrawer ul li {
+  padding-inline-start: 16px;
 }
