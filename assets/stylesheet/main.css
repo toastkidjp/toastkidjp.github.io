@@ -69,3 +69,6 @@ table:not(header table) td:hover {
   background-color: rgba(22, 0, 80, 0.9);
   color: white;
 }
+.mui-dropdown__menu {
+    font-size: 14pt;
+}
