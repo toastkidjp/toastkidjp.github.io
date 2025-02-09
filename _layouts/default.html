@@ -80,19 +80,19 @@
   <div id="sidedrawer-brand" class="mui--appbar-line-height">
     <span class="mui--text-title">Menu</span>
     <div class="mui-divider"></div>
-       <strong>Web apps</strong>
+       <strong onclick="toggleExpand(this)">Web apps</strong>
     <ul>
           <li><a href="{{ '/loan.html' | relative_url }}">Loan calculator</a>
           <li><a href="{{ '/converter.html' | relative_url }}">Converter tools</a>
           <li><a href="{{ '/worldTime.html' | relative_url }}">World time</a>
           <li><a href="{{ '/randomValuePicker.html' | relative_url }}">Random value picker</a>
     </ul>
-       <strong>App documents</strong>
+       <strong onclick="toggleExpand(this)">App documents</strong>
     <ul>
        <li><a href="{{ '/documents/yobidashi4.html' | relative_url }}">Yobidashi4</a>
        <li><a href="{{ '/documents/yobidashi_android.html' | relative_url }}">Yobidashi Android</a>
     </ul>
-       <strong>Contents</strong>
+       <strong onclick="toggleExpand(this)">Contents</strong>
     <ul>
        <li><a href="{{ '/posts.html' | relative_url }}">Posts</a>
     </ul>
