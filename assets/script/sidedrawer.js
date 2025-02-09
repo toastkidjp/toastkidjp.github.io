@@ -23,16 +23,6 @@ function showSidedrawer() {
   const bodyElement = document.body;
   const sidedrawerElement = document.getElementById('sidedrawer');
   // show overlay
-/*
-  var options = {
-    onclose: function() {
-      sidedrawerElement
-        .removeClass('active')
-        .appendTo(document.body);
-    }
-  };*/
-
-  // show element
   const overlayElement = mui.overlay('on', { onclose: hideSidedrawer });
   document.getElementById('content-wrapper').append(overlayElement);
   setTimeout(function() {
