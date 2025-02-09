@@ -7,9 +7,6 @@ last_modified_at: 2025-02-01 00:00:00 +0900
 
 Thank you for visiting my web site.
 
-# Table of contents
-{:toc}
-
 # Bio
 <img src="{{ '/assets/image/toast_icon.jpg' | relative_url }}" alt="My avatar" width="128" height="!28">
 
