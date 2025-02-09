@@ -161,3 +161,21 @@ button {
 #sidedrawer ul {
   padding-inline-start: 16px;
 }
+
+#sidedrawer {
+  ul {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+
+    &.is-open {
+      &:before {
+        transform: translateY(-50%) rotate(360deg);
+      }
+      
+      &:after {
+        transform: translateY(-50%) rotate(90deg);
+      }
+    }
+  }
+}
