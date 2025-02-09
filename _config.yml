@@ -9,3 +9,4 @@ url: "https://toastkidjp.github.io"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-toc
