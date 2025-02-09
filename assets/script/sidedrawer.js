@@ -39,3 +39,13 @@ function hideSidedrawer() {
   bodyElement.classList.remove('mui-scroll-lock');
   sidedrawerElement.classList.remove('active');
 }
+
+function toggleExpand(e) {
+  const list = e.nextElementSibling;
+  list.classList.toggle('is-open');
+  if (list.classList.contains("is-open")) {
+    list.style.height = list.scrollHeight + 'px';
+  } else {
+    list.style.height = "0";
+  }
+}
