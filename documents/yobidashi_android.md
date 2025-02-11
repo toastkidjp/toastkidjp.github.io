@@ -4,7 +4,7 @@ title: What's Yobidashi(Android)?
 last_modified_at: 2025-02-07 00:00:00 +0900
 ---
 # <img src="{{ '/assets/image/ic_yobidashi.webp' | relative_url }}" width="64" height="64" />[Yobidashi](https://play.google.com/store/apps/details?id=jp.toastkid.yobidashi)...Android web search app.
-[![license](https://img.shields.io/github/license/toastkidjp/Yobidashi_kt.svg)](./LICENSE)
+[![license](https://img.shields.io/github/license/toastkidjp/Yobidashi_kt.svg)](https://github.com/toastkidjp/Yobidashi_kt/blob/main/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/toastkidjp/Yobidashi_kt.svg)](https://github.com/toastkidjp/Yobidashi_kt/releases)
 [![GitHub issues](https://img.shields.io/github/issues/toastkidjp/Yobidashi_kt.svg)](https://github.com/toastkidjp/Yobidashi_kt/issues)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/toastkidjp/Yobidashi_kt.svg)](https://github.com/toastkidjp/Yobidashi_kt/issues?q=is%3Aissue+is%3Aclosed)
