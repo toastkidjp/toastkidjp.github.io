@@ -73,7 +73,7 @@ I joined a Japanese web service company in April 2012.
 ## My favorite books
 
 ### Software
-1. Clean ArchitectureÅcÅcBut I often use simple layered architecture.
+1. Clean Architecture‚Ä¶‚Ä¶But I often use simple layered architecture.
 2. Effective Java
 3 .Refactoring
 4. The Pragmatic Programmer, 20th Anniversary Edition
