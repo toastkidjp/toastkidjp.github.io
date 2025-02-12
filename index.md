@@ -38,6 +38,7 @@ I joined a Japanese web service company in April 2012.
 - Kotlin(Android app, PC app): 7 years
 - Java(Back-end): 12 years
 - Java GUI(Swing, SWT, JavaFX, Android, and Jetpack Compose): Over 10 years
+- Spring Framework: 5 years
 - React: 1 year
 - Express(Node): 1 year
 
@@ -69,3 +70,26 @@ I joined a Japanese web service company in April 2012.
 6. N-Gauge
 7. Reading books
 
+## My favorite books
+
+### Software
+1. Clean ArchitectureÅcÅcBut I often use simple layered architecture.
+2. Effective Java
+3 .Refactoring
+4. The Pragmatic Programmer, 20th Anniversary Edition
+5. Working effectively with legacy code
+6. Showstopper!
+
+### Other
+- Han Feizi
+- Animal Farm
+- Nineteen Eighty-Four
+- Julius Caesar
+- Ashenden: Or the British Agent
+- Les Miserables
+- The Remains of the Day
+- The Innovator's Dilemma
+- The Loser's Game
+- A Random Walk Down Wall Street: The Time-Tested Strategy for Successful Investing
+- The snowball : Warren Buffett and the business of life
+- How to Win Friends and Influence People
