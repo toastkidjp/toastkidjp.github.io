@@ -25,6 +25,35 @@
 
 {% seo %}
 
+<script>
+const monthLabel = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+
+function generateTodayArticleLink() {
+const date = new Date();
+
+const link = "https://en.wikipedia.org/wiki/" + monthLabel[date.getMonth()] + "_" + date.getDate();
+document.getElementById("link_to_article").innerHTML = "<a href='" + link + "'>Today</a>";
+}
+
+if (window.location.pathname === '/') {
+  window.onload = generateTodayArticleLink();
+}
+</script>
+
+
 </head>
 <body class="hide-sidedrawer">
 
@@ -58,6 +87,8 @@
 
 <div class="mui-container-fluid inner clearfix">
   <div class="mui-panel">
+
+    <div id="link_to_article"></div>
 
         <section id="main-content">
           {{ content }}
