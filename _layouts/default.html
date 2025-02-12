@@ -11,6 +11,7 @@
 <link rel="stylesheet" media="all" href="{{ '/assets/stylesheet/sidedrawer.css' | relative_url }}" />
     <script src="{{ '/assets/mui-0.10.3/js/mui.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/script/sidedrawer.js' | relative_url }}"></script>
+    <script src="{{ '/assets/script/today.js' | relative_url }}"></script>
 
 {% if site.google_analytics %}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KK206BWSDN"></script>
@@ -26,28 +27,6 @@
 {% seo %}
 
 <script>
-const monthLabel = [
-  "Jan",
-  "Feb",
-  "Mar",
-  "Apr",
-  "May",
-  "Jun",
-  "Jul",
-  "Aug",
-  "Sep",
-  "Oct",
-  "Nov",
-  "Dec",
-];
-
-function generateTodayArticleLink() {
-const date = new Date();
-
-const link = "https://en.wikipedia.org/wiki/" + monthLabel[date.getMonth()] + "_" + date.getDate();
-document.getElementById("link_to_article").innerHTML = "<a href='" + link + "'>Today</a>";
-}
-
 if (window.location.pathname.endsWith('/')) {
   window.onload = generateTodayArticleLink();
 }
