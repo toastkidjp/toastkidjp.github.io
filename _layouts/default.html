@@ -48,7 +48,7 @@ const link = "https://en.wikipedia.org/wiki/" + monthLabel[date.getMonth()] + "_
 document.getElementById("link_to_article").innerHTML = "<a href='" + link + "'>Today</a>";
 }
 
-if (window.location.pathname === '/') {
+if (window.location.pathname.endsWith('/')) {
   window.onload = generateTodayArticleLink();
 }
 </script>
