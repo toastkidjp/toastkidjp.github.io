@@ -65,6 +65,6 @@ table:not(header table) td:hover {
     font-size: 14pt;
   min-width: 240px;
 }
-.mui-dropdown__menu li:hover{
+.mui-dropdown__menu ul li ul li:hover{
   background-color: #E0E0E0;
 }
