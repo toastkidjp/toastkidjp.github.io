@@ -54,6 +54,8 @@
             generate the table of contents and will NOT output the markdown given to it
     {% endcomment %}
 
+    {% capture "<h3>Table of contents</h3>" %}
+
     {% capture newline %}
     {% endcapture %}
     {% assign newline = newline | rstrip %} <!-- Remove the extra spacing but preserve the newline -->
