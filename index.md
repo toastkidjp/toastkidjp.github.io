@@ -7,6 +7,32 @@ last_modified_at: 2025-02-01 00:00:00 +0900
 
 Thank you for visiting my web site.
 
+<script>
+const monthLabel = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+
+function generateTodayArticleLink() {
+const date = new Date();
+
+const link = "https://en.wikipedia.org/wiki/" + monthLabel[date.getMonth()] + "_" + date.getDate();
+document.getElementById("link_to_article").innerHTML = "<a href='" + link + "'>Today</a>"
+}
+</script>
+
+<div id="link_to_article"></div>
+
 # Bio
 <img src="{{ '/assets/image/toast_icon.jpg' | relative_url }}" alt="My avatar" title="My avatar" width="128" height="!28">
 
