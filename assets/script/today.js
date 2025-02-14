@@ -25,12 +25,12 @@ const monthLabel = [
 ];
 
 function generateTodayArticleLink() {
-if (!window.location.pathname.endsWith('/') && !window.location.pathname.endsWith('index.html')) {
-  return;
-}
+  if (!window.location.pathname.endsWith('/') && !window.location.pathname.endsWith('index.html')) {
+    return;
+  }
 
-const date = new Date();
+  const date = new Date();
 
-const link = "https://en.wikipedia.org/wiki/" + monthLabel[date.getMonth()] + "_" + date.getDate();
-document.getElementById("link_to_article").innerHTML = "<a href='" + link + "'>Today</a>";
+  const link = "https://en.wikipedia.org/wiki/" + monthLabel[date.getMonth()] + "_" + date.getDate();
+  document.getElementById("link_to_article").innerHTML = "<a href='" + link + "'>Today</a>";
 }
