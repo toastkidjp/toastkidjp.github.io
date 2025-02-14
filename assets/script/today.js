@@ -31,6 +31,7 @@ function generateTodayArticleLink() {
 
   const date = new Date();
 
-  const link = "https://en.wikipedia.org/wiki/" + monthLabel[date.getMonth()] + "_" + date.getDate();
+  const title = monthLabel[date.getMonth()] + "_" + date.getDate();
+  const link = "https://en.wikipedia.org/wiki/" + title;
   document.getElementById("link_to_article").innerHTML = "<a href='" + link + "'>Today</a>";
 }
