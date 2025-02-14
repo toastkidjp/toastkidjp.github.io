@@ -25,7 +25,6 @@ const monthLabel = [
 ];
 
 function generateTodayArticleLink() {
-  document.getElementById("link_to_article").innerHTML = "<p>" + window.location.pathname + "</p>";
   if (!window.location.pathname.endsWith('/') && !window.location.pathname.endsWith('index.html')) {
     return;
   }
