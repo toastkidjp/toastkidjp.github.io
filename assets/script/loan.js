@@ -35,6 +35,14 @@ function calculate() {
 
   document.getElementById('paymentSchedule').innerHTML = newTable;
 
-  const monthlyPayment = monthlyPaymentToBank + document.getElementById("managementFee").value + document.getElementById("renovationReserves").value;
-  document.getElementById('monthlyPayment').textContent = "Monthly payment: " + Math.round(monthlyPayment).toLocaleString() + " (Interest: " + Math.round(wholeInterest).toLocaleString() + ")";
+  const monthlyPayment =
+    monthlyPaymentToBank
+     + document.getElementById("managementFee").value
+     + document.getElementById("renovationReserves").value;
+  document.getElementById('monthlyPayment').textContent = 
+    "Monthly payment: "
+     + Math.round(monthlyPayment).toLocaleString()
+     + " (Interest: "
+     + Math.round(wholeInterest).toLocaleString()
+     + ")";
 }
