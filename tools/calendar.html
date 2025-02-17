@@ -3,7 +3,7 @@ layout: page
 title: Calendar
 last_modified_at: 2025-02-17 00:00:00 +0900
 ---
-<!--script src="{{ 'assets/script/worldTime.js' | relative_url }}"></script-->
+<script src="{{ 'assets/script/calendar.js' | relative_url }}"></script>
 
 <h2>Calendar</h2>
 
@@ -25,82 +25,5 @@ This tool is provided "as is" and without any warranty.</span>
 </style>
 
 <script>
-const week = [ 0, 1, 2, 3, 4, 5, 6 ];
-
-function makeMonth(today) {
-    const firstDay = new Date(today.getFullYear(), today.getMonth(), 1);
-
-    let hasStarted1 = false;
-    let current1 = firstDay;
-    const weeks = [];
-    for (let i = 0; i < 5; i++) {
-        const w = [];
-        week.forEach((dayOfWeek) => {
-            if (!hasStarted1 && dayOfWeek !== firstDay.getDay()) {
-                w.push(-1);
-                return;
-            }
-            hasStarted1 = true;
-
-            if (today.getMonth() !== current1.getMonth()) {
-                w.push(-1);
-            } else {
-                w.push(current1.getDate());
-            }
-            current1.setDate(current1.getDate() + 1);
-        });
-        if (w.some((n) => n !== -1)) {
-            weeks.push(w);
-        }
-    }
-    return {
-      label: today.getFullYear() + " / " + (today.getMonth() + 1),
-      weeks: weeks,
-    };
-}
-
-function toCalendarClass(dayOfWeek) {
-  switch (dayOfWeek) {
-    case 0:
-      return " class='sunday'";
-    case 6:
-      return " class='saturday'";
-    default:
-      return "";
-  }
-}
-
-const today = new Date();
-
-function moveToPrevious() {
-  move(-1);
-}
-
-function moveToNext() {
-  move(1);
-}
-
-function move(increment) {
-  today.setMonth(today.getMonth() + increment);
-  const nextMonth = makeMonth(today);
-  document.getElementById("calendar").innerHTML = generateNewHtml(nextMonth);
-}
-
-function generateNewHtml(month) {
-let calendar = "<h3><button onclick='moveToPrevious()'>&lt</button>" + month.label + "<button onclick='moveToNext()'>&gt</button></h3><table><th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th class='saturday'>Sat</th>";
-
-month.weeks.forEach((w) => {
-  calendar += "<tr>";
-  w.forEach((d, i) => {
-    const dateLabel = "<td" + toCalendarClass(i) + ">" + (d === -1 ? "" : d) + "</td>";
-    calendar += dateLabel;
-  });
-  calendar += "</tr>";
-});
-
-calendar += "</table>";
-  return calendar;
-}
-
 document.getElementById("calendar").innerHTML = generateNewHtml(makeMonth(today));
 </script>
