@@ -46,11 +46,11 @@ function makeMonth(today) {
 function toCalendarClass(dayOfWeek) {
   switch (dayOfWeek) {
     case 0:
-      return " class='sunday'";
+      return " class='calendarCell sunday'";
     case 6:
-      return " class='saturday'";
+      return " class='calendarCell saturday'";
     default:
-      return "";
+      return " class='calendarCell'";
   }
 }
 
