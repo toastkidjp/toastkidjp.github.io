@@ -57,15 +57,16 @@ function toCalendarClass(dayOfWeek) {
 const today = new Date();
 
 function moveToPrevious() {
-  move(-1);
+  today.setMonth(today.getMonth() - 1);
+  move(today);
 }
 
 function moveToNext() {
-  move(1);
+  today.setMonth(today.getMonth() + 1);
+  move(today);
 }
 
-function move(increment) {
-  today.setMonth(today.getMonth() + increment);
+function move(today) {
   const nextMonth = makeMonth(today);
   document.getElementById("calendar").innerHTML = generateNewHtml(nextMonth);
 }
