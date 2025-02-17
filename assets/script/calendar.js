@@ -38,7 +38,8 @@ function makeMonth(today) {
         }
     }
     return {
-      label: today.getFullYear() + " / " + (today.getMonth() + 1),
+      year: today.getFullYear(),
+      month: today.getMonth(),
       weeks: weeks,
     };
 }
@@ -77,7 +78,11 @@ function move(today) {
 }
 
 function generateNewHtml(month) {
-  document.getElementById('calendarLabel').textContent = month.label;
+  document.getElementById('calendarLabel').textContent = month.year;
+  const monthSelector = document.getElementById('monthSelector');
+  for (let i = 0; i < 12; i++) {
+    monthSelector.options[i].selected = i == month.month;
+  }
 
   let calendar = "<table><th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th class='saturday'>Sat</th>";
 
