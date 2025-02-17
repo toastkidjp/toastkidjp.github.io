@@ -71,19 +71,19 @@ function move(increment) {
 }
 
 function generateNewHtml(month) {
-document.getElementById('calendarLabel').textContent = month.label;
+  document.getElementById('calendarLabel').textContent = month.label;
 
-let calendar = "<table><th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th class='saturday'>Sat</th>";
+  let calendar = "<table><th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th class='saturday'>Sat</th>";
 
-month.weeks.forEach((w) => {
-  calendar += "<tr>";
-  w.forEach((d, i) => {
-    const dateLabel = "<td" + toCalendarClass(i) + ">" + (d === -1 ? "" : d) + "</td>";
-    calendar += dateLabel;
+  month.weeks.forEach((w) => {
+    calendar += "<tr>";
+    w.forEach((d, i) => {
+      const dateLabel = "<td" + toCalendarClass(i) + ">" + (d === -1 ? "" : d) + "</td>";
+      calendar += dateLabel;
+    });
+    calendar += "</tr>";
   });
-  calendar += "</tr>";
-});
 
-calendar += "</table>";
+  calendar += "</table>";
   return calendar;
 }
