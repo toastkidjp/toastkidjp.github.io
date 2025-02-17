@@ -71,7 +71,9 @@ function move(increment) {
 }
 
 function generateNewHtml(month) {
-let calendar = "<h3><button onclick='moveToPrevious()'>&lt</button>" + month.label + "<button onclick='moveToNext()'>&gt</button></h3><table><th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th class='saturday'>Sat</th>";
+document.getElementById('calendarLabel').textContent = month.label;
+
+let calendar = "<table><th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th class='saturday'>Sat</th>";
 
 month.weeks.forEach((w) => {
   calendar += "<tr>";
