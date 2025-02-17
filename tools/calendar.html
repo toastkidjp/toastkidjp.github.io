@@ -14,5 +14,9 @@ This tool is provided "as is" and without any warranty.</span>
 <div id="calendar"></div>
 
 <script>
-document.getElementById("calendar").innerHTML = generateNewHtml(makeMonth(today));
+function loadInitialCalendar() {
+  document.getElementById("calendar").innerHTML = generateNewHtml(makeMonth(today));
+}
+
+window.onload = loadInitialCalendar();
 </script>
