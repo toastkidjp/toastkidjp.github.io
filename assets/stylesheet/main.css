@@ -68,3 +68,7 @@ table:not(header table) td:hover {
 .mui-dropdown__menu ul li ul li:hover{
   background-color: #E0E0E0;
 }
+
+.too-wide-image {
+  width: 100%;
+}
