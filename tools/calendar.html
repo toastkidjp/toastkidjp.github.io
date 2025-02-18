@@ -11,7 +11,7 @@ last_modified_at: 2025-02-17 00:00:00 +0900
 <span>This tool runs in your browser. It doesn't send any of your input data to external server.
 This tool is provided "as is" and without any warranty.</span>
 
-<button onclick='moveToPrevious()'>&lt</button><span id="calendarLabel"></span> / <select id="monthSelector" onchange="selectMonth(this.selectedIndex)">
+<h3><button onclick='moveToPrevious()'>&lt</button><span id="calendarLabel"></span> / <select id="monthSelector" onchange="selectMonth(this.selectedIndex)">
   <option value="0">1 (Jan)</option>
   <option value="1">2 (Feb)</option>
   <option value="2">3 (Mar)</option>
@@ -26,7 +26,8 @@ This tool is provided "as is" and without any warranty.</span>
   <option value="11">12 (Dec)</option>
 </select>
 
-<button onclick='moveToNext()'>&gt</button>
+<button onclick='moveToNext()'>&gt</button></h3>
+
 <div id="calendar"></div>
 
 <script>
