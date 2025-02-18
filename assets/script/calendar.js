@@ -91,8 +91,8 @@ function generateNewHtml(month) {
   month.weeks.forEach((w) => {
     calendar += "<tr>";
     w.forEach((d, i) => {
-      const dateLabel = "<td" + toCalendarClass(i) + ">" + (d === -1 ? "" : d) + "</td>";
-      calendar += dateLabel;
+      const dateCell = "<td" + toCalendarClass(i) + ">" + (d === -1 ? "" : d) + "</td>";
+      calendar += dateCell;
     });
     calendar += "</tr>";
   });
