@@ -17,7 +17,7 @@ function makeMonth(today) {
     let hasStarted1 = false;
     let current1 = firstDay;
     const weeks = [];
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i <= 5; i++) {
         const w = [];
         week.forEach((dayOfWeek) => {
             if (!hasStarted1 && dayOfWeek !== firstDay.getDay()) {
