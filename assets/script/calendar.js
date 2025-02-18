@@ -17,7 +17,7 @@ function makeMonth(today) {
     const firstDay = new Date(today.getFullYear(), today.getMonth(), 1);
 
     let hasStarted1 = false;
-    let current1 = firstDay;
+    let currentDate = firstDay;
     const weeks = [];
     for (let i = 0; i <= 5; i++) {
         const w = [];
@@ -28,12 +28,12 @@ function makeMonth(today) {
             }
             hasStarted1 = true;
 
-            if (today.getMonth() !== current1.getMonth()) {
+            if (today.getMonth() !== currentDate.getMonth()) {
                 w.push(-1);
             } else {
-                w.push(current1.getDate());
+                w.push(currentDate.getDate());
             }
-            current1.setDate(current1.getDate() + 1);
+            currentDate.setDate(currentDate.getDate() + 1);
         });
         if (w.some((n) => n !== -1)) {
             weeks.push(w);
