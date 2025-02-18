@@ -6,13 +6,13 @@
  * The Eclipse Public License is available at http://www.eclipse.org/legal/epl-v10.html.
  */
 
-/**
- * @author toastkidjp
- */
 const week = [ 0, 1, 2, 3, 4, 5, 6 ];
 
 const tableHeader = "<th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th class='saturday'>Sat</th>";
 
+/**
+ * @author toastkidjp
+ */
 function makeMonth(today) {
     const firstDay = new Date(today.getFullYear(), today.getMonth(), 1);
 
