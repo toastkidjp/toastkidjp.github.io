@@ -8,7 +8,7 @@
 
 const week = [ 0, 1, 2, 3, 4, 5, 6 ];
 
-const tableHeader = "<th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th class='saturday'>Sat</th>";
+const tableHeader = "<th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>";
 
 /**
  * @author toastkidjp
