@@ -58,7 +58,7 @@ function toCalendarClass(dayOfWeek) {
 const today = new Date();
 
 function selectMonth(month) {
-  today.setMonth(month - 1);
+  today.setMonth(month);
   move(today);
 }
 
