@@ -11,6 +11,8 @@
  */
 const week = [ 0, 1, 2, 3, 4, 5, 6 ];
 
+const tableHeader = "<th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th class='saturday'>Sat</th>";
+
 function makeMonth(today) {
     const firstDay = new Date(today.getFullYear(), today.getMonth(), 1);
 
@@ -84,7 +86,7 @@ function generateNewHtml(month) {
     monthSelector.options[i].selected = i == month.month;
   }
 
-  let calendar = "<table><th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th class='saturday'>Sat</th>";
+  let calendar = "<table>" + tableHeader;
 
   month.weeks.forEach((w) => {
     calendar += "<tr>";
