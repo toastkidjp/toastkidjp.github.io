@@ -11,3 +11,6 @@
   font-size: 14pt;
   text-align: right;
 }
+#calendarLabel {
+  margin-left: 8px;
+}
