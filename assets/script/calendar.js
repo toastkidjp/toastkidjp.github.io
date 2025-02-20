@@ -34,7 +34,7 @@ function makeDateCellItem(today, current) {
   }
 
   return {
-    label: `current.getDate()`,
+    label: current.getDate(),
     empty: false,
     style: toCalendarClass(current.getDay()),
   };
@@ -50,7 +50,7 @@ function makeMonth(today) {
         const w = [];
         week.forEach((dayOfWeek) => {
             if (!hasStarted1 && dayOfWeek !== firstDay.getDay()) {
-                w.push(-1);
+                w.push(makeDateCellItem(today, new Date(0)));
                 return;
             }
             hasStarted1 = true;
