@@ -7,6 +7,11 @@
 .saturday {
   color: #3F51B5;
 }
+.today {
+  background-color: navy;
+  color: white;
+  font-weight: bold;
+}
 .calendarCell {
   font-size: 14pt;
   text-align: right;
