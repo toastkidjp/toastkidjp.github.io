@@ -11,13 +11,19 @@ const week = [ 0, 1, 2, 3, 4, 5, 6 ];
 const tableHeader = "<th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>";
 
 function toCalendarClass(date) {
+  const today = new Date();
+  const todayStyleIfNeed = today.getFullYear() === date.getFullYear()
+    && today.getMonth() === date.getMonth()
+    && today.getDate() === date.getDate()
+    ? "today "
+    : "";
   switch (date.getDay()) {
     case 0:
-      return "calendarCell sunday";
+      return todayStyleIfNeed + "calendarCell sunday";
     case 6:
-      return "calendarCell saturday";
+      return todayStyleIfNeed + "calendarCell saturday";
     default:
-      return "calendarCell";
+      return todayStyleIfNeed + "calendarCell";
   }
 }
 
