@@ -13,11 +13,11 @@ const tableHeader = "<th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed<
 function toCalendarClass(date) {
   switch (date.getDay()) {
     case 0:
-      return " class='calendarCell sunday'";
+      return "calendarCell sunday";
     case 6:
-      return " class='calendarCell saturday'";
+      return "calendarCell saturday";
     default:
-      return " class='calendarCell'";
+      return "calendarCell";
   }
 }
 
@@ -104,7 +104,7 @@ function generateNewHtml(month) {
   month.weeks.forEach((w) => {
     calendar += "<tr>";
     w.forEach((d, i) => {
-      const dateCell = "<td" + d.style + ">" + d.label + "</td>";
+      const dateCell = "<td class='" + d.style + "'>" + d.label + "</td>";
       calendar += dateCell;
     });
     calendar += "</tr>";
