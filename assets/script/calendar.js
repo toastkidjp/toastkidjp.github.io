@@ -31,7 +31,7 @@ function toCalendarClass(date) {
  * @author toastkidjp
  */
 function makeDateCellItem(today, current) {
-  if (today.getMonth() !== current.getMonth()) {
+  if (today.getFullYear() !== current.getFullYear() || today.getMonth() !== current.getMonth()) {
     return {
       label: "",
       empty: true,
