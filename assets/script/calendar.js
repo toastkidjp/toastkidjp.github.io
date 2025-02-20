@@ -13,6 +13,22 @@ const tableHeader = "<th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed<
 /**
  * @author toastkidjp
  */
+function makeDateCellItem(today, current) {
+  if (today.getMonth() !== current.getMonth()) {
+    return {
+      label: "",
+      empty: true,
+      style: "",
+    };
+  }
+
+  return {
+    label: `current.getDate()`,
+    empty: false,
+    style: ""
+  };
+}
+
 function makeMonth(today) {
     const firstDay = new Date(today.getFullYear(), today.getMonth(), 1);
 
@@ -28,14 +44,11 @@ function makeMonth(today) {
             }
             hasStarted1 = true;
 
-            if (today.getMonth() !== currentDate.getMonth()) {
-                w.push(-1);
-            } else {
-                w.push(currentDate.getDate());
-            }
+            w.push(makeDateCellItem(today, currentDate));
+
             currentDate.setDate(currentDate.getDate() + 1);
         });
-        if (w.some((n) => n !== -1)) {
+        if (w.some((n) => !n.empty)) {
             weeks.push(w);
         }
     }
@@ -91,7 +104,7 @@ function generateNewHtml(month) {
   month.weeks.forEach((w) => {
     calendar += "<tr>";
     w.forEach((d, i) => {
-      const dateCell = "<td" + toCalendarClass(i) + ">" + (d === -1 ? "" : d) + "</td>";
+      const dateCell = "<td" + toCalendarClass(i) + ">" + d.label + "</td>";
       calendar += dateCell;
     });
     calendar += "</tr>";
