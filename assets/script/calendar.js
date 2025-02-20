@@ -10,8 +10,8 @@ const week = [ 0, 1, 2, 3, 4, 5, 6 ];
 
 const tableHeader = "<th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>";
 
-function toCalendarClass(dayOfWeek) {
-  switch (dayOfWeek) {
+function toCalendarClass(date) {
+  switch (date.getDay()) {
     case 0:
       return " class='calendarCell sunday'";
     case 6:
@@ -29,14 +29,14 @@ function makeDateCellItem(today, current) {
     return {
       label: "",
       empty: true,
-      style: toCalendarClass(current.getDay()),
+      style: toCalendarClass(current),
     };
   }
 
   return {
     label: current.getDate(),
     empty: false,
-    style: toCalendarClass(current.getDay()),
+    style: toCalendarClass(current),
   };
 }
 
