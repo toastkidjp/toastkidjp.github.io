@@ -26,6 +26,9 @@ I joined a Japanese web service company in April 2012.
 
 # My skill set
 [![GitHub badge](https://img.shields.io/github/followers/toastkidjp?label=follow&logo=github&style=flat)](https://github.com/toastkidjp)
+![all](https://badges.pufler.dev/commits/all/toastkidjp)
+![yearly](https://badges.pufler.dev/commits/yearly/toastkidjp)
+![monthly](https://badges.pufler.dev/commits/monthly/toastkidjp)
 [![My Qiita posts](https://qiita-badge.apiapi.app/s/toastkidjp/posts.svg)](http://qiita.com/toastkidjp)
 [![My Qiita contributions](https://qiita-badge.apiapi.app/s/toastkidjp/contributions.svg)](http://qiita.com/toastkidjp)
 
