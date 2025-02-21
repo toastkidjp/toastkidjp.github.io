@@ -22,13 +22,14 @@ last_modified_at: 2025-02-01 00:00:00 +0900
 
 <ul class="mui-tabs__bar">
 {% for tag in site.tags %}
-  <li class="mui--is-active"><a data-mui-toggle="tab" data-mui-controls="{{ tag[0] }}">{{ tag[0] }}</a></li>
+  {% if forloop.first %} <li class="mui--is-active"> {% elsif %} <li> {% endif %}
+<a data-mui-toggle="tab" data-mui-controls="{{ tag[0] }}">{{ tag[0] }}</a></li>
 {% endfor %}
 </ul>
 
 {% for tag in site.tags %}
 <div class="mui-tabs__pane" id="{{tag[0]}}">
-### {{ tag[0] }}
+<h3>{{ tag[0] }}</h3>
   {% for post in tag[1] %}
 1. [{{ post.title }}]({{ post.url }})
   {% endfor %}
