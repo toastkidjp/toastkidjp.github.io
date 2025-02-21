@@ -22,7 +22,7 @@ last_modified_at: 2025-02-01 00:00:00 +0900
 
 <ul class="mui-tabs__bar">
 {% for tag in site.tags %}
-  <li class="{% if forloop.first %} mui--is-active {% else %} {% endif %}">
+  <li>
     <a data-mui-toggle="tab" data-mui-controls="tab-{{ tag[0] }}">{{ tag[0] }}</a>
   </li>
 {% endfor %}
