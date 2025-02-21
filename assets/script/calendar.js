@@ -78,6 +78,16 @@ function makeMonth(today) {
 
 const today = new Date();
 
+function selectYear(yearInput) {
+  try {
+    const year = parseInt(yearInput);
+    today.setFullYear(year);
+    move(today);
+  } catch (e) {
+    console.log(e);
+  }
+}
+
 function selectMonth(month) {
   today.setMonth(month);
   move(today);
@@ -99,7 +109,7 @@ function move(today) {
 }
 
 function generateNewHtml(month) {
-  document.getElementById('calendarLabel').textContent = month.year;
+  document.getElementById('calendarLabel').value = month.year;
   const monthSelector = document.getElementById('monthSelector');
   for (let i = 0; i < 12; i++) {
     monthSelector.options[i].selected = i == month.month;
