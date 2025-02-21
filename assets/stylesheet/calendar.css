@@ -16,6 +16,9 @@
   font-size: 14pt;
   text-align: right;
 }
+.year-input {
+  width: 100px;
+}
 #calendarLabel {
   margin-left: 8px;
 }
