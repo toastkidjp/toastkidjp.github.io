@@ -29,5 +29,5 @@ function generateTodayArticleLink() {
 
   const title = monthLabel[date.getMonth()] + "_" + date.getDate();
   const link = "https://en.wikipedia.org/wiki/" + title;
-  document.getElementById("link_to_article").innerHTML = "<h3>What day is it?</h3><a href='" + link + "'>" + title + " (Wikipedia)</a>";
+  return "<h3>What day is it?</h3><a href='" + link + "'>" + title + " (Wikipedia)</a>";
 }
