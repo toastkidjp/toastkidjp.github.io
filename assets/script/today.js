@@ -25,10 +25,6 @@ const monthLabel = [
 ];
 
 function generateTodayArticleLink() {
-  if (!window.location.pathname.endsWith('/') && !window.location.pathname.endsWith('index.html')) {
-    return;
-  }
-
   const date = new Date();
 
   const title = monthLabel[date.getMonth()] + "_" + date.getDate();
