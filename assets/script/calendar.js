@@ -9,18 +9,18 @@
 const week = [ 0, 1, 2, 3, 4, 5, 6 ];
 
 const monthLabels = [
-"1 (Jan)",
-"2 (Feb)",
-"3 (Mar)",
-"4 (Apr)",
-"5 (May)",
-"6 (Jun)",
-"7 (Jul)",
-"8 (Aug)",
-"9 (Sep)",
-"10 (Oct)",
-"11 (Nov)",
-"12 (Dec)"
+  "1 (Jan)",
+  "2 (Feb)",
+  "3 (Mar)",
+  "4 (Apr)",
+  "5 (May)",
+  "6 (Jun)",
+  "7 (Jul)",
+  "8 (Aug)",
+  "9 (Sep)",
+  "10 (Oct)",
+  "11 (Nov)",
+  "12 (Dec)"
 ];
 
 const tableHeader = "<th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>";
