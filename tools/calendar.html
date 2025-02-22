@@ -19,20 +19,26 @@ This tool is provided "as is" and without any warranty.</span>
 <input id="calendarLabel" class="mui--is-not-empty mui--is-untouched mui--is-pristine" type="number" onchange="selectYear(this.value)">
         <label>Year</label>
 </span>
-       / <select id="monthSelector" onchange="selectMonth(this.selectedIndex)">
-  <option value="0">1 (Jan)</option>
-  <option value="1">2 (Feb)</option>
-  <option value="2">3 (Mar)</option>
-  <option value="3">4 (Apr)</option>
-  <option value="4">5 (May)</option>
-  <option value="5">6 (Jun)</option>
-  <option value="6">7 (Jul)</option>
-  <option value="7">8 (Aug)</option>
-  <option value="8">9 (Sep)</option>
-  <option value="9">10 (Oct)</option>
-  <option value="10">11 (Nov)</option>
-  <option value="11">12 (Dec)</option>
-</select>
+       / 
+<span style="width: 100px;" class="mui-dropdown mui-textfield mui-textfield--float-label" title="Month" data-mui-toggle="dropdown">
+<input id="monthSelectorLabel" class="mui--is-not-empty mui--is-untouched mui--is-pristine" type="text"  class="mui-btn mui-btn--primary">
+        <label>Month</label>
+</span>
+  <ul class="mui-dropdown__menu">
+    <li onclick="selectMonth(0)">1 (Jan)</li>
+    <li onclick="selectMonth(1)">2 (Feb)</li>
+    <li onclick="selectMonth(2)">3 (Mar)</li>
+    <li onclick="selectMonth(3)">4 (Apr)</li>
+    <li onclick="selectMonth(4)">5 (May)</li>
+    <li onclick="selectMonth(5)">6 (Jun)</li>
+    <li onclick="selectMonth(6)">7 (Jul)</li>
+    <li onclick="selectMonth(7)">8 (Aug)</li>
+    <li onclick="selectMonth(8)">9 (Sep)</li>
+    <li onclick="selectMonth(9)">10 (Oct)</li>
+    <li onclick="selectMonth(10)">11 (Nov)</li>
+    <li onclick="selectMonth(11)">12 (Dec)</li>
+ </ul>
+</span>
 
 <button class="mui-btn mui-btn--primary mui-btn--raised" onclick='moveToNext()'>&gt</button>
 </h3>

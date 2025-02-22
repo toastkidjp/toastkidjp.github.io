@@ -8,6 +8,21 @@
 
 const week = [ 0, 1, 2, 3, 4, 5, 6 ];
 
+const monthLabels = [
+"1 (Jan)",
+"2 (Feb)",
+"3 (Mar)",
+"4 (Apr)",
+"5 (May)",
+"6 (Jun)",
+"7 (Jul)",
+"8 (Aug)",
+"9 (Sep)",
+"10 (Oct)",
+"11 (Nov)",
+"12 (Dec)"
+];
+
 const tableHeader = "<th class='sunday'>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>";
 
 function toCalendarClass(date) {
@@ -110,10 +125,8 @@ function move(today) {
 
 function generateNewHtml(month) {
   document.getElementById('calendarLabel').value = month.year;
-  const monthSelector = document.getElementById('monthSelector');
-  for (let i = 0; i < 12; i++) {
-    monthSelector.options[i].selected = i == month.month;
-  }
+  const monthSelector = document.getElementById('monthSelectorLabel');
+  monthSelector.value = monthLabels[month.month];
 
   let calendar = "<table>" + tableHeader;
 
