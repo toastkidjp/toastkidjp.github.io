@@ -4,6 +4,7 @@ title: Calendar
 last_modified_at: 2025-02-17 00:00:00 +0900
 ---
 <script src="{{ 'assets/script/calendar.js' | relative_url }}"></script>
+    <script src="{{ '/assets/script/today.js' | relative_url }}"></script>
 <link rel="stylesheet" media="all" href="{{ '/assets/stylesheet/calendar.css' | relative_url }}" />
 
 <h2>Calendar</h2>
@@ -38,10 +39,15 @@ This tool is provided "as is" and without any warranty.</span>
 
 <div id="calendar"></div>
 
+    <div id="link_to_article"></div>
+
 <script>
 function loadInitialCalendar() {
   document.getElementById("calendar").innerHTML = generateNewHtml(makeMonth(today));
 }
 
 window.onload = loadInitialCalendar();
+</script>
+<script>
+generateTodayArticleLink();
 </script>

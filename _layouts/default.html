@@ -11,7 +11,6 @@
 <link rel="stylesheet" media="all" href="{{ '/assets/stylesheet/sidedrawer.css' | relative_url }}" />
     <script src="{{ '/assets/mui-0.10.3/js/mui.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/script/sidedrawer.js' | relative_url }}"></script>
-    <script src="{{ '/assets/script/today.js' | relative_url }}"></script>
 
 {% if site.google_analytics %}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KK206BWSDN"></script>
@@ -59,12 +58,6 @@
 
 <div class="mui-container-fluid inner clearfix">
   <div class="mui-panel">
-
-    <div id="link_to_article"></div>
-
-<script>
-generateTodayArticleLink();
-</script>
 
         <section id="main-content">
           {{ content }}
