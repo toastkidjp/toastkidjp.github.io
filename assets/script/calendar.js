@@ -125,6 +125,7 @@ function move(today) {
 
 function generateNewHtml(month) {
   document.getElementById('calendarLabel').value = month.year;
+
   const monthSelector = document.getElementById('monthSelectorLabel');
   monthSelector.value = monthLabels[month.month];
 
