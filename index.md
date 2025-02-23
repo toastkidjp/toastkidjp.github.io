@@ -25,7 +25,7 @@ I joined a Japanese web service company in April 2012.
 - Web BFF (2023-)
 
 # My skill set
-[![GitHub badge](https://img.shields.io/github/followers/toastkidjp?label=follow&logo=github&style=flat)](https://github.com/toastkidjp)
+[![GitHub badge](https://img.shields.io/github/followers/toastkidjp?label=follow&logo=github&style=flat)](https://github.com/toastkidjp?tab=followers)
 ![Years](https://badges.pufler.dev/years/toastkidjp)
 ![Repos](https://badges.pufler.dev/repos/toastkidjp)
 ![Last events](https://img.shields.io/badge/dynamic/json?label=Latest%20event&query=%24%5B0%5D.created_at&url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftoastkidjp%2Fevents)
