@@ -29,7 +29,7 @@ last_modified_at: 2025-02-01 00:00:00 +0900
 <table>
 <tr><th>Title</th><th>Last update</th></tr>
   {% for post in tag[1] %}
-<tr><td><a href="{{ post.url }}">{{ post.title }}</a></td><td>Last update</td></tr>
+<tr><td><a href="{{ post.url }}">{{ post.title }}</a></td><td>{{ post.date | date: "%Y-%m-%d" }}</td></tr>
   {% endfor %}
 </table>
 </div>
