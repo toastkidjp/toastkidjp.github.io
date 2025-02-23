@@ -24,6 +24,7 @@ last_modified_at: 2025-02-01 00:00:00 +0900
 {% for tag in site.tags %}
 <div class="mui-tabs__pane" id="tab-{{tag[0]}}">
 <h3>{{ tag[0] }}</h3>
+{{ tag[1] | size }} Posts
 <table>
 <tr><th>Title</th><th>Last update</th></tr>
   {% for post in tag[1] %}
