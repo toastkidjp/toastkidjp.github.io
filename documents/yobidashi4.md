@@ -62,6 +62,16 @@ It makes easier for writing unit test, and keeping simple UI code.
 ## Unit test code coverage
 Over 90%
 
+| | Coverage
+|:---|:---
+| Class | 98% (637/650)
+| Method | 96.2% (2048/2129)
+| Branch | 89.7% (2823/3148)
+| Line | 99.2% (7841/7903)
+| Instruction | 98.4% (69388/70529)
+
+Calculated by Kover.
+
 # Other
 
 ## Why does this app name contain "4"?
