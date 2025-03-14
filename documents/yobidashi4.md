@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What's Yobidashi4?
-last_modified_at: 2025-02-05 00:00:00 +0900
+last_modified_at: 2025-03-14 10:00:00 +0900
 ---
 # [Yobidashi4](https://github.com/toastkidjp/Yobidashi4): PC desktop app
 [![GitHub release](https://img.shields.io/github/release/toastkidjp/Yobidashi4.svg)](https://github.com/toastkidjp/Yobidashi4/releases)
@@ -62,13 +62,13 @@ It makes easier for writing unit test, and keeping simple UI code.
 ## Unit test code coverage
 Over 90%
 
-| | Coverage
+| Category | Coverage(%)
 |:---|:---
-| Class | 98% (637/650)
-| Method | 96.2% (2048/2129)
-| Branch | 89.7% (2823/3148)
-| Line | 99.2% (7841/7903)
-| Instruction | 98.4% (69388/70529)
+| Class | 98% (641/654)
+| Method | 96.4% (2060/2138)
+| Branch | 90.4% (2827/3128)
+| Line | 99.4% (7861/7912)
+| Instruction | 98.5% (69498/70536)
 
 Calculated by Kover.
 
