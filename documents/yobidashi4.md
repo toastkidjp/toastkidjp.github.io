@@ -27,6 +27,11 @@ This app is editor for me. This app includes many useful functions.
 ## Runtime environment
 Java 17 and over.
 
+## Package download
+I provide UberJar for Mac and Windows users.
+
+https://github.com/toastkidjp/Yobidashi4/releases
+
 ## Architecture
 Layered architecture
 
