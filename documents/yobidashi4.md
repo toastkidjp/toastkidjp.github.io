@@ -28,9 +28,11 @@ This app is editor for me. This app includes many useful functions.
 Java 17 and over.
 
 ## Package download
-I provide UberJar for Mac and Windows users.
+I provide UberJar for Mac and Windows users. If you get any interest for this tool, you can download UberJar from following link.
 
 https://github.com/toastkidjp/Yobidashi4/releases
+
+<a href="{{ '/assets/image/yobidashi4/assets_link.png' }}"><img src="{{ '/assets/image/yobidashi4/assets_link.png' }}" alt="Assets link" width="50%" height="50%"></a>
 
 ## Architecture
 Layered architecture
