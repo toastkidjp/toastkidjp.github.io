@@ -69,11 +69,11 @@ Over 90%
 
 | Category | Coverage(%)
 |:---|:---
-| Class | 98% (641/654)
-| Method | 96.4% (2060/2138)
-| Branch | 90.4% (2827/3128)
-| Line | 99.4% (7861/7912)
-| Instruction | 98.5% (69498/70536)
+| Class | 98.2% (643/655)
+| Method | 96.4% (2061/2138)
+| Branch | 90.4% (2829/3130)
+| Line | 99.4% (7870/7921)
+| Instruction | 98.5% (69557/70592)
 
 Calculated by Kover.
 
