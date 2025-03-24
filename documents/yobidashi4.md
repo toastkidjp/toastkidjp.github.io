@@ -77,7 +77,7 @@ Over 90%
 | Line | 99.4% (7870/7921)
 | Instruction | 98.5% (69557/70592)
 
-Calculated by Kover.
+Calculated by [Kover](https://github.com/Kotlin/kotlinx-kover).
 
 # Other
 
