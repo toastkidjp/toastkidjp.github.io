@@ -2,12 +2,25 @@
 layout: page
 title: "About toastkidjp"
 permalink: /
-last_modified_at: 2025-02-01 00:00:00 +0900
+last_modified_at: 2025-12-15 10:00:00 +0900
 ---
 
 Thank you for visiting my web site.
 
 <div id="link_to_article"></div>
+
+# My portfolio
+
+## Android App
+- [Yobidashi]({{ '/documents/yobidashi_android.html' | relative_url }}): Android web search app.
+- [Other apps(Google Play)](https://play.google.com/store/apps/developer?id=toastkidjp)
+
+## Desktop App
+- [Yobidashi4]({{ '/documents/yobidashi4.html' | relative_url }}): PC desktop app.
+
+## Links
+- [GitHub](https://github.com/toastkidjp)
+- [Qiita](https://qiita.com/toastkidjp): Japanese tech blog forum
 
 # Bio
 <img src="{{ '/assets/image/toast_icon.jpg' | relative_url }}" alt="My avatar" title="My avatar" width="128" height="!28">
@@ -44,20 +57,6 @@ I joined a Japanese web service company in April 2012.
 - Express(Node): 1 year
 
 (2025)
-
-# My portfolio
-
-## Android App
-- [Yobidashi4]({{ '/documents/yobidashi_android.html' | relative_url }}): Android web search app.
-- [Other](https://play.google.com/store/apps/developer?id=toastkidjp)
-
-## Desktop App
-- [Yobidashi4]({{ '/documents/yobidashi4.html' | relative_url }}): PC desktop app.
-
-## Links
-- [GitHub](https://github.com/toastkidjp)
-- [Qiita](https://qiita.com/toastkidjp): Japanese tech blog forum
-- [Tumblr](https://toastkidjp.tumblr.com/): My diary
 
 ----
 
